@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
       ),
 
       body: Center(
-        child: Obx(() => Text('Count : ${counterController.count}',style: TextStyle(
+        child: Obx(() => Text('Count : ${counterController.count}',style: const TextStyle(
           fontSize: 20,
         ),)),
       ),
