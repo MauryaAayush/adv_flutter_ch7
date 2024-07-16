@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('GetX Counter App'),
+        title: const Text('GetX Counter App'),
       ),
 
       floatingActionButton: FloatingActionButton(
