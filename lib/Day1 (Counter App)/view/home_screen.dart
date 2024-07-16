@@ -1,18 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-
-
-class CounterController extends GetxController{
-  var count = 0.obs;
-
-  void increment(){
-    count++;
-  }
-
-}
-
-
+import '../controller/count_controller.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
