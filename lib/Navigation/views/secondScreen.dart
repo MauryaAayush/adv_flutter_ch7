@@ -7,6 +7,7 @@ class Secondscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red,
       appBar: AppBar(
         centerTitle: true,
         title: Text('Screen 2'),

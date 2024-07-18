@@ -7,7 +7,9 @@ class NavigationScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.teal,
       appBar: AppBar(
+
         centerTitle: true,
         title: Text('Screen 1'),
       ),

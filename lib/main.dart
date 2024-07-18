@@ -24,8 +24,12 @@ class MyApp extends StatelessWidget {
           theme: themeController.isDark.value ? ThemeData.dark() : ThemeData.light(),
           home: const NavigationScreen(),
           getPages: [
-            GetPage(name: '/home', page: () => const NavigationScreen(),),
-            GetPage(name: '/second', page: () => const Secondscreen(),)
+            GetPage(name: '/home', page: () => const NavigationScreen(),
+            transition: Transition.circularReveal
+            ),
+            GetPage(name: '/second', page: () => const Secondscreen(),
+            transition: Transition.circularReveal
+            )
           ],
       );
     },);
