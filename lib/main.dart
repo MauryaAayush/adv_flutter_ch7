@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       return GetMaterialApp(
           debugShowCheckedModeBanner: false,
           theme: themeController.isDark.value ? ThemeData.dark() : ThemeData.light(),
-          home: const NavigationScreen(),
+          home:  HomeScreen(),
           getPages: [
             GetPage(name: '/home', page: () => const NavigationScreen(),
             transition: Transition.circularReveal
@@ -35,5 +35,3 @@ class MyApp extends StatelessWidget {
     },);
   }
 }
-
-
