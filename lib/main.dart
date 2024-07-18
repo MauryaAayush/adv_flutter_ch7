@@ -1,8 +1,10 @@
+import 'package:adv_flutter_ch7/Navigation/views/secondScreen.dart';
 import 'package:adv_flutter_ch7/Theme_change/controller/themeContoller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import 'Day1 (Counter App)/view/home_screen.dart';
+import 'Navigation/views/NavScreen.dart';
 import 'Theme_change/views/themeScreen.dart';
 
 void main() {
@@ -20,7 +22,11 @@ class MyApp extends StatelessWidget {
       return GetMaterialApp(
           debugShowCheckedModeBanner: false,
           theme: themeController.isDark.value ? ThemeData.dark() : ThemeData.light(),
-          home: ThemeScreen()
+          home: const NavigationScreen(),
+          getPages: [
+            GetPage(name: '/home', page: () => const NavigationScreen(),),
+            GetPage(name: '/second', page: () => const Secondscreen(),)
+          ],
       );
     },);
   }
