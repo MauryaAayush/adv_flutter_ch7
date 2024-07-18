@@ -1,16 +1,43 @@
 # adv_flutter_ch7
 
-A new Flutter project.
+ ##  
+  <h2 align = "center">Lecture-1 -> Counter App </h2>
 
-## Getting Started
+<div align="center">
 
-This project is a starting point for a Flutter application.
+<video src = "https://github.com/user-attachments/assets/baa24577-5bba-4a54-bc10-3d239e4aac1e">
 
-A few resources to get you started if this is your first Flutter project:
+</div>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+###
+<div align="center">
+    <a href="https://github.com/MauryaAayush/adv_flutter_ch7/tree/master/lib/Day1%20(Counter%20App)">👉 📚 Go to dart file 📚 👈</a>
+</div>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ ##  
+  <h2 align = "center">Lecture-2 -> Switch Theme </h2>
+
+<div align="center">
+
+<video src = "https://github.com/user-attachments/assets/5ba5b622-f0e5-4bbe-b56f-ae000b419830">
+
+</div>
+
+###
+<div align="center">
+    <a href="https://github.com/MauryaAayush/adv_flutter_ch7/tree/master/lib/Navigation/views">👉 📚 Go to dart file 📚 👈</a>
+</div>
+
+ ##  
+  <h2 align = "center">Lecture-2 -> Switch Theme </h2>
+
+<div align="center">
+
+<video src = "https://github.com/user-attachments/assets/e6becec8-6d74-4f96-be81-9ddaa8680440">
+
+</div>
+
+###
+<div align="center">
+    <a href="https://github.com/MauryaAayush/adv_flutter_ch7/tree/master/lib/Theme_change">👉 📚 Go to dart file 📚 👈</a>
+</div>
