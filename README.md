@@ -29,7 +29,7 @@
 </div>
 
  ##  
-  <h2 align = "center">Lecture-2 -> Switch Theme </h2>
+  <h2 align = "center">Lecture-2 -> Navigation with Animation </h2>
 
 <div align="center">
 
